@@ -5,9 +5,9 @@
 [![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/Django-3.1-brightgreen?style=flat&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![Django Rest Framework](https://img.shields.io/badge/Django_Rest_Framework-3.11-red?style=flat&logo=django&logoColor=white)](https://www.django-rest-framework.org/)
-[![Angular](https://img.shields.io/badge/Angular-10-blueviolet?style=flat&logo=angular&logoColor=white)](https://angular.io/)
+![React](https://img.shields.io/badge/React-18-blue?style=flat&logo=react&logoColor=white)
 
-A **feature-rich Reddit clone** built using **Django** for the backend and **Angular** for the frontend. This project allows users to create, interact, and engage in discussions within communities.
+A **feature-rich Reddit clone** built using **Django** for the backend and **React** for the frontend. This project allows users to create, interact, and engage in discussions within communities.
 
 ## 🚀 Features
 
@@ -41,8 +41,8 @@ A **feature-rich Reddit clone** built using **Django** for the backend and **Ang
 - WSL (Windows Subsystem for Linux)
 
 ### Frontend
-- Angular 10.2.4 (or 10.2.5)
-- Node 10.13.x+
+- React 18
+- Node 14.x+
 
 
 ## ⚙️ Installation
@@ -87,20 +87,24 @@ A **feature-rich Reddit clone** built using **Django** for the backend and **Ang
 ### 🌐 Frontend Setup
 1. Navigate to the frontend directory:
     ```bash
-    cd static/frontend/reddit-app
+    cd static/frontend/react-app
     ```
 
-2. Install Angular dependencies:
+2. Install React dependencies:
     ```bash
     npm install
     ```
 
 3. Run the frontend development server:
     ```bash
-    ng serve
+    npm start
     ```
 
-    Visit **`http://127.0.0.1:4200/`** to access the frontend.
+    Visit **`http://127.0.0.1:3000/`** to access the frontend.
+4. Build the project:
+    ```bash
+    npm run build
+    ```
 
 ## 📝 API Documentation
 
@@ -148,15 +152,15 @@ python manage.py populate_groups
 
 ## 💡 Notes
 - **Backend (Django) runs on WSL**
-- **Frontend (Angular) runs directly on Windows**
+- **Frontend (React) runs directly on Windows**
 
 
 ## 📐 References
 - [How to Install Python 3.8 on Ubuntu 18.04](https://linuxize.com/post/how-to-install-python-3-8-on-ubuntu-18-04/)
 - [Installing Node.js on Windows](https://www.guru99.com/download-install-node-js.html)
-- [Official Angular 10 Installation Guide](https://v10.angular.io/guide/setup-local)
-- [Installing a Specific Version of Angular CLI](https://stackoverflow.com/questions/44759621/install-specific-version-of-ng-cli)
-- [Angular, Angular CLI, and Node.js Compatibility](https://stackoverflow.com/questions/60248452/is-there-a-compatibility-list-for-angular-angular-cli-and-node-js)
+- [Official React Installation Guide](https://react.dev/learn)
+- [React CLI Installation](https://react.dev/learn)
+- [React and Node.js Compatibility](https://react.dev/learn)
 
 ### 🎉 **Happy Coding!** 🚀
 
